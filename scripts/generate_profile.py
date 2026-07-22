@@ -69,7 +69,7 @@ def pixel_paths(art: dict, theme: str) -> list[str]:
             paths[color_index].append(f"M{x} {y}h{width}v1h-{width}z")
 
     output = [
-        '<g transform="translate(34 62) scale(6.8)" shape-rendering="crispEdges">'
+        '<g transform="translate(18 50) scale(4.7)" shape-rendering="crispEdges">'
     ]
     for color_index, commands in paths.items():
         if not commands:
@@ -120,8 +120,6 @@ def render(theme_name: str, art: dict, stats: dict) -> str:
         '<desc id="description">Vector pixel-art snow leopard with automatically updated GitHub statistics.</desc>',
         f'<rect x="0.5" y="0.5" width="{WIDTH - 1}" height="{HEIGHT - 1}" rx="12" '
         f'fill="{theme["background"]}" stroke="{theme["border"]}"/>',
-        f'<circle cx="250" cy="280" r="218" fill="none" stroke="{theme["line"]}" stroke-width="1"/>',
-        f'<circle cx="250" cy="280" r="202" fill="none" stroke="{theme["line"]}" stroke-width="1" stroke-dasharray="3 9"/>',
     ]
     parts.extend(pixel_paths(art, theme_name))
 

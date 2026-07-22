@@ -13,8 +13,8 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parent.parent
 SOURCE = ROOT / "assets" / "snow-leopard-pixel.png"
 OUTPUT = ROOT / "pixel_art.json"
-GRID_SIZE = 64
-COLORS = 40
+GRID_SIZE = 96
+COLORS = 64
 ALPHA_CUTOFF = 48
 
 
