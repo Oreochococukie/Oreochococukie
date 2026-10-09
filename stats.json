@@ -1,20 +1,20 @@
 {
   "login": "Oreochococukie",
-  "generated_at": "2026-10-08T23:25:40+00:00",
+  "generated_at": "2026-10-09T06:18:18+00:00",
   "created_at": "2022-04-02T14:45:03Z",
-  "repos_total": 24,
-  "repos_public": 3,
+  "repos_total": 25,
+  "repos_public": 4,
   "stars_received": 1,
   "followers": 2,
   "following": 0,
-  "contributions_365d": 2775,
-  "commits_365d": 333,
-  "pull_requests_365d": 122,
-  "active_repository": "veden",
+  "contributions_365d": 2783,
+  "commits_365d": 334,
+  "pull_requests_365d": 128,
+  "active_repository": "artex-ko",
   "top_languages": [
     "TypeScript",
     "Python",
     "JavaScript",
-    "Rust"
+    "Go"
   ]
 }
